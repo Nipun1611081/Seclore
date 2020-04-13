@@ -1,21 +1,30 @@
 package com.seclore.pojo;
 
-public class Account {
+public class Account extends Object {
 	private long accountNumber;
 	private String name;
 	private double balance;
+	private static long accountNumberGenerator = 100;
 
 	public Account() {
 		System.out.println("Default constructor of Account");
 	}
-	
-	//constructor Overloading
-	public Account(long accountNumber, String name , double balance)
-	{
-		this.accountNumber = accountNumber;
+
+	// constructor Overloading
+	public Account(long accountNumber, String name, double balance) {
+		accountNumberGenerator++;
+		this.accountNumber = accountNumberGenerator;
 		this.name = name;
 		this.balance = balance;
-		System.out.println("Param. construtor of Account");
+		System.out.println("Three Param. construtor of Account");
+	}
+
+	public Account(String name, double balance) {
+		accountNumberGenerator++;
+		this.accountNumber = accountNumberGenerator;
+		this.name = name;
+		this.balance = balance;
+		System.out.println("Three Param. construtor of Account");
 	}
 
 	public boolean withdraw(double amount) {
@@ -56,6 +65,11 @@ public class Account {
 
 	public void setBalance(double balance) {
 		this.balance = balance;
+	}
+
+	@Override
+	public String toString() {
+		return "Account [accountNumber=" + accountNumber + ", name=" + name + ", balance=" + balance + "]";
 	}
 
 }
