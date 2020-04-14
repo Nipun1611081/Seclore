@@ -25,7 +25,7 @@ The program should do the following:
 
 The machine has two main components: a built-in cash register and several dispensers to hold and release the products.
 
-Define class cashRegister in C++ with the following descriptions :
+Define class cashRegister in Java with the following descriptions :
 Private Members:
 cashOnHand of type integer
 Public Members:
