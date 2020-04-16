@@ -66,6 +66,35 @@
     - Loose Coupling ([Client](./05_MessengerAplication/src/com/seclore/main/MessengerMain.java), [MiddleWare](./05_MessengerAplication/src/com/seclore/application/MessengerApp.java), [Factory](./05_MessengerAplication/src/com/seclore/factory/MessageFactory.java), [POJO](./05_MessengerAplication/src/com/seclore/pojo))
     - [SOLID](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) - Single Responsibility principle
     - [Design Patterns](https://www.javatpoint.com/design-patterns-in-java) - Factory pattern
+### Day Four
+16. JAVA Basiscs
+    - [JDK, JRE, JVM](https://www.javatpoint.com/difference-between-jdk-jre-and-jvm)
+    - JAR creation
+    - JAR compatibility
+    - String Vs String Buffer Vs String Builder
+    - Abstract class (Printer Example)
+17. [06 String Utility](./06_StringUtilitly/src/com/seclore/util)
+    - [Importing JAR files libraries](./06_StringUtilityClient/src/com/seclore/main/MyMain.java)
+18. [07 CallByValue_CallByReference](./07_CallByValue_CallByReference/src/com/seclore/main/MessaengerMain.java)
+    - Call by value (Primitive value)
+    - Call by reference (Object)
+19. [08 Interface Vs Abstract](./08_InterfaceVsAbstractClass/src/com/seclore/pojo/Canon6541A.java)
+    - Interface
+    - Default method
+    - Multiple Inheritance
+## Day Five
+20. [09 Exception Handling](./09_ExceptionHandling/src/com/seclore/main/ProductMain.java)
+    - Error(Compile time) Vs Exception(Runtime)
+    - Checked Vs Unchecked(Runtime Exception)
+	- Coding Standards (com.seclore.main / pojo / util / exceptions)
+	- Throwable hierarchy
+	- [Throw Vs Throws](./09_ExceptionHandling/src/com/seclore/pojo/Product.java)
+	- Exception hierarchy
+    - [Custom Exception](./09_ExceptionHandling/src/com/seclore/exceptions/InvalidProductPriceException.java)
+21. 10 FileIO
+    - [File MetaData](./10_FileIO/src/com/seclore/util/FileMetadata.java)
+	- [Char Stream](./10_FileIO/src/com/seclore/main/ReadCharStreamMain.java) Vs [Byte Stream](./10_FileIO/src/com/seclore/main/ReadWriteByteStreamMain.java)
+  
 ## ✍️ Authors <a name = "authors"></a>
 - [@vivek-gohil](https://github.com/vivek-gohil) - Instructor
 - [@caldenrodrigues](https://github.com/caldenrodrigues/) - Documentation
