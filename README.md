@@ -82,7 +82,7 @@
     - Interface
     - Default method
     - Multiple Inheritance
-## Day Five
+### Day Five
 20. [09 Exception Handling](./09_ExceptionHandling/src/com/seclore/main/ProductMain.java)
     - Error(Compile time) Vs Exception(Runtime)
     - Checked Vs Unchecked(Runtime Exception)
@@ -94,7 +94,24 @@
 21. 10 FileIO
     - [File MetaData](./10_FileIO/src/com/seclore/util/FileMetadata.java)
 	- [Char Stream](./10_FileIO/src/com/seclore/main/ReadCharStreamMain.java) Vs [Byte Stream](./10_FileIO/src/com/seclore/main/ReadWriteByteStreamMain.java)
-  
+### Day Six
+22. [11 Collections](./11_Collections/src/com/seclore/main/EmployeeDAOMain.java)
+    - [Array Sort](./11_Collections/src/com/seclore/main/ArraySortMain.java)
+    - [ArrayList](./11_Collections/src/com/seclore/main/ArrayListMain.java)
+    - [Data Access Object](./11_Collections/src/com/seclore/dao/EmployeeDAO.java) (DAO) - CURD operations
+    - [Custom Comparator](./11_Collections/src/com/seclore/comparator/EmployeeNameComparator.java)
+    - [Custom Sort](./11_Collections/src/com/seclore/main/ArraySortMain.java)
+    - [Iterator & ListIterator](./11_Collections/src/com/seclore/main/CollectionIterator.java)
+    - [HashMap](./11_Collections/src/com/seclore/main/HashMapMain.java)
+    - [HashSet](./11_Collections/src/com/seclore/main/HashSetMain.java)
+### Day Seven
+23. [12 Annotations](./12_Annotations/src/com/seclore/main/AnnotationMain.java)
+    - Default Annotations in Java
+    - [Adding Annotations](./12_Annotations/src/com/seclore/pojo/MyClass.java)
+    - [Custom Annotations](./12_Annotations/src/com/seclore/annotations/MyAnnotation.java)
+	
+24. [13 XML]()
+
 ## ✍️ Authors <a name = "authors"></a>
 - [@vivek-gohil](https://github.com/vivek-gohil) - Instructor
 - [@caldenrodrigues](https://github.com/caldenrodrigues/) - Documentation
