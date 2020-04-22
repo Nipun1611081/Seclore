@@ -89,6 +89,11 @@ com.seclore.application
 	MessengerApp
 com.seclore.main
 	MessengerMain -> accept to--> and message--> 	
+-------------------------------------------------------------------------------------
+
+create online exam application using XML-DOM and Collections/Array 
+where application will fetch questions and its options are from xml file.
+display the result at the end of the exam.
   
 
 
