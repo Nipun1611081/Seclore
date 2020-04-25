@@ -110,7 +110,26 @@
     - [Adding Annotations](./12_Annotations/src/com/seclore/pojo/MyClass.java)
     - [Custom Annotations](./12_Annotations/src/com/seclore/annotations/MyAnnotation.java)
 	
-24. [13 XML]()
+24. [13 XML](./13_XML/src/com/seclore)
+    - [Annotations](./13_XML/src/com/seclore/pojo/Employee.java)
+    - [Write XML File](./13_XML/src/com/seclore/main/WriteXMLFile.java)
+    - [Read XML File](./13_XML/src/com/seclore/main/DOMParser.java)
+    - [Write Object as XML](./13_XML/src/com/seclore/main/CovertObjectIntoXML.java)
+    - [Read XML as Object](./13_XML/src/com/seclore/main/CovertXMLintoXML.java)
+
+25. [14_XPath](./14_XPath/src/com/seclore/main/XPathTest.java)
+    - Various Queries
+
+### Day Eight
+26. [15_JSON](./15_JSON/src/com/seclore)
+    - [Read JSON](./15_JSON/src/com/seclore/main/ReadJSON.java)
+    - [Write JSON](./15_JSON/src/com/seclore/main/WriteJSON.java)
+    - Annotations
+    - [Map to JSON](./15_JSON/src/com/seclore/main/JacksonMapJSONMain.java)
+    - [JSON to Map](./15_JSON/src/com/seclore/main/JacksonJSONMapMain.java)
+    - [JSON to Array of Objects](./15_JSON/src/com/seclore/main/JacksonJSONArrayObjectMain.java)
+    - [Create Views](./15_JSON/src/com/seclore/views/CompanyViews.java)
+    - [Using Views](./15_JSON/src/com/seclore/main/JacksonJSONViewMain.java)
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@vivek-gohil](https://github.com/vivek-gohil) - Instructor
