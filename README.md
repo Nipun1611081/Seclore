@@ -82,11 +82,7 @@
     - Interface
     - Default method
     - Multiple Inheritance
-<<<<<<< HEAD
 ### Day Five
-=======
-## Day Five
->>>>>>> Updated till day 5
 20. [09 Exception Handling](./09_ExceptionHandling/src/com/seclore/main/ProductMain.java)
     - Error(Compile time) Vs Exception(Runtime)
     - Checked Vs Unchecked(Runtime Exception)
