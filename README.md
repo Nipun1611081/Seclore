@@ -66,6 +66,72 @@
     - Loose Coupling ([Client](./05_MessengerAplication/src/com/seclore/main/MessengerMain.java), [MiddleWare](./05_MessengerAplication/src/com/seclore/application/MessengerApp.java), [Factory](./05_MessengerAplication/src/com/seclore/factory/MessageFactory.java), [POJO](./05_MessengerAplication/src/com/seclore/pojo))
     - [SOLID](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) - Single Responsibility principle
     - [Design Patterns](https://www.javatpoint.com/design-patterns-in-java) - Factory pattern
+### Day Four
+16. JAVA Basiscs
+    - [JDK, JRE, JVM](https://www.javatpoint.com/difference-between-jdk-jre-and-jvm)
+    - JAR creation
+    - JAR compatibility
+    - String Vs String Buffer Vs String Builder
+    - Abstract class (Printer Example)
+17. [06 String Utility](./06_StringUtilitly/src/com/seclore/util)
+    - [Importing JAR files libraries](./06_StringUtilityClient/src/com/seclore/main/MyMain.java)
+18. [07 CallByValue_CallByReference](./07_CallByValue_CallByReference/src/com/seclore/main/MessaengerMain.java)
+    - Call by value (Primitive value)
+    - Call by reference (Object)
+19. [08 Interface Vs Abstract](./08_InterfaceVsAbstractClass/src/com/seclore/pojo/Canon6541A.java)
+    - Interface
+    - Default method
+    - Multiple Inheritance
+### Day Five
+20. [09 Exception Handling](./09_ExceptionHandling/src/com/seclore/main/ProductMain.java)
+    - Error(Compile time) Vs Exception(Runtime)
+    - Checked Vs Unchecked(Runtime Exception)
+	- Coding Standards (com.seclore.main / pojo / util / exceptions)
+	- Throwable hierarchy
+	- [Throw Vs Throws](./09_ExceptionHandling/src/com/seclore/pojo/Product.java)
+	- Exception hierarchy
+    - [Custom Exception](./09_ExceptionHandling/src/com/seclore/exceptions/InvalidProductPriceException.java)
+21. 10 FileIO
+    - [File MetaData](./10_FileIO/src/com/seclore/util/FileMetadata.java)
+	- [Char Stream](./10_FileIO/src/com/seclore/main/ReadCharStreamMain.java) Vs [Byte Stream](./10_FileIO/src/com/seclore/main/ReadWriteByteStreamMain.java)
+### Day Six
+22. [11 Collections](./11_Collections/src/com/seclore/main/EmployeeDAOMain.java)
+    - [Array Sort](./11_Collections/src/com/seclore/main/ArraySortMain.java)
+    - [ArrayList](./11_Collections/src/com/seclore/main/ArrayListMain.java)
+    - [Data Access Object](./11_Collections/src/com/seclore/dao/EmployeeDAO.java) (DAO) - CURD operations
+    - [Custom Comparator](./11_Collections/src/com/seclore/comparator/EmployeeNameComparator.java)
+    - [Custom Sort](./11_Collections/src/com/seclore/main/ArraySortMain.java)
+    - [Iterator & ListIterator](./11_Collections/src/com/seclore/main/CollectionIterator.java)
+    - [HashMap](./11_Collections/src/com/seclore/main/HashMapMain.java)
+    - [HashSet](./11_Collections/src/com/seclore/main/HashSetMain.java)
+### Day Seven
+23. [12 Annotations](./12_Annotations/src/com/seclore/main/AnnotationMain.java)
+    - Default Annotations in Java
+    - [Adding Annotations](./12_Annotations/src/com/seclore/pojo/MyClass.java)
+    - [Custom Annotations](./12_Annotations/src/com/seclore/annotations/MyAnnotation.java)
+	
+24. [13 XML](./13_XML/src/com/seclore)
+    - [Annotations](./13_XML/src/com/seclore/pojo/Employee.java)
+    - [Write XML File](./13_XML/src/com/seclore/main/WriteXMLFile.java)
+    - [Read XML File](./13_XML/src/com/seclore/main/DOMParser.java)
+    - [Write Object as XML](./13_XML/src/com/seclore/main/CovertObjectIntoXML.java)
+    - [Read XML as Object](./13_XML/src/com/seclore/main/CovertXMLintoXML.java)
+
+25. [14_XPath](./14_XPath/src/com/seclore/main/XPathTest.java)
+    - Various Queries
+
+### Day Eight
+26. [15_JSON](./15_JSON/src/com/seclore)
+    - [Read JSON](./15_JSON/src/com/seclore/main/ReadJSON.java)
+    - [Write JSON](./15_JSON/src/com/seclore/main/WriteJSON.java)
+    - Annotations
+    - [Map to JSON](./15_JSON/src/com/seclore/main/JacksonMapJSONMain.java)
+    - [JSON to Map](./15_JSON/src/com/seclore/main/JacksonJSONMapMain.java)
+    - [JSON to Array of Objects](./15_JSON/src/com/seclore/main/JacksonJSONArrayObjectMain.java)
+    - [Create Views](./15_JSON/src/com/seclore/views/CompanyViews.java)
+    - [Using Views](./15_JSON/src/com/seclore/main/JacksonJSONViewMain.java)
+
 ## ✍️ Authors <a name = "authors"></a>
 - [@vivek-gohil](https://github.com/vivek-gohil) - Instructor
 - [@caldenrodrigues](https://github.com/caldenrodrigues/) - Documentation
+- [@pratiknerurkar](https://youtu.be/5KFDenDWsdQ) - Documentation
